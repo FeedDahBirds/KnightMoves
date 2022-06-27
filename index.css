@@ -1,0 +1,28 @@
+.row:nth-child(even) .cell:nth-child(odd) {
+    background-color:  #fff;
+}
+.row:nth-child(odd) .cell:nth-child(even) {
+    background-color:  #fff;
+}
+.row:nth-child(even) .cell:nth-child(even) {
+    background-color:  black;
+}
+.row:nth-child(odd) .cell:nth-child(odd) {
+    background-color:  black;
+}
+
+.x:after {
+    content: "\274c";
+    color: #FFF;
+}
+
+.cell {
+    height:100px;
+    width:100px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#main {
+    border: 1px solid #f0f0
+}
